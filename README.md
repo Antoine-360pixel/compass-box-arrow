@@ -4,7 +4,7 @@ A scss mixin (compass) for simply generate box arrow.
 By Naivencreatik
 
 ## Usage
-import the "mixins" file and the "animate" folder (on directory : app/styles/)
+import the "box-arrow" file and the "animate" folder (on directory : app/styles/)
 
 ```scss
 @include box-arrow($param, $size, $color, $borderColor);
@@ -15,7 +15,7 @@ import the "mixins" file and the "animate" folder (on directory : app/styles/)
 ##Example 
 ```scss
 @import "animate/animations";
-@import "mixins";
+@import "box-arrow";
 
 .box{
     @include box-arrow(top, 10, #fff, #e6e6e6);
