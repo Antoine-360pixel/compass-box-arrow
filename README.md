@@ -10,7 +10,7 @@ import the "box-arrow" file and the "animate" folder (on directory : app/styles/
 @include box-arrow($param, $size, $color, $borderColor);
 ```
 // Define short $param
-`top`, `bottom`
+`top`, `right`, `bottom`, `left`
 
 ##Example 
 ```scss
