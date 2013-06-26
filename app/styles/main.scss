@@ -94,6 +94,14 @@ button,
     }
 
     &.ba-2 {
+        @include box-arrow(right, 10, $white, $color-2);
+    }
+
+    &.ba-3 {
         @include box-arrow(bottom, 10, $white, $color-2);
+    }
+
+    &.ba-4 {
+        @include box-arrow(left, 10, $white, $color-2);
     }
 }
