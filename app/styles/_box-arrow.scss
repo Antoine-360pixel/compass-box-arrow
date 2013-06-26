@@ -9,7 +9,6 @@
     &:before {
         content: " ";
         position: absolute;
-        left: 50%;
         width: 0;
         height: 0;
         border: solid transparent;
@@ -17,13 +16,11 @@
     }
 
     &:after {
-        margin-left: -#{$size}px;
         border-width: #{$size}px;
         z-index: 4;
     }
        
     &:before {
-        margin-left: -#{$size + 1}px;
         border-width: #{$size + 1}px;
         z-index: 1;
     }
@@ -34,14 +31,35 @@
         &:after, 
         &:before {
             bottom: 100%;
+            left: 50%;
         }
 
         &:after {
+            margin-left: -#{$size}px;
             border-bottom-color: $color;
         }
 
         &:before {
+            margin-left: -#{$size + 1}px;
             border-bottom-color: $borderColor;
+        }
+    }@else if($param == right) {
+        @extend %fadeInRight;
+
+        &:after, 
+        &:before {
+            top: 50%;
+            left: 100%;
+        }
+
+        &:after {
+            margin-top: -#{$size}px;
+            border-left-color: $color;
+        }
+
+        &:before {
+            margin-top: -#{$size + 1}px;
+            border-left-color: $borderColor;
         }
     }@else if($param == bottom) {
         @extend %fadeInDown;
@@ -49,14 +67,35 @@
         &:after, 
         &:before {
             top: 100%;
+            left: 50%;
         }
 
         &:after {
+            margin-left: -#{$size}px;
             border-top-color: $color;
         }
 
         &:before {
+            margin-left: -#{$size + 1}px;
             border-top-color: $borderColor;
+        }
+    }@else if($param == left) {
+        @extend %fadeInLeft;
+
+        &:after, 
+        &:before {
+            top: 50%;
+            right: 100%;
+        }
+
+        &:after {
+            margin-top: -#{$size}px;
+            border-right-color: $color;
+        }
+
+        &:before {
+            margin-top: -#{$size + 1}px;
+            border-right-color: $borderColor;
         }
     }
 }
