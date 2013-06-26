@@ -1,0 +1,56 @@
+@import "compass";
+@import "compass/css3";
+@import "compass/reset";
+@import "animate/animations";
+@import "box-arrow";
+
+$white      : #fff;
+$black      : #000;
+$color-1    : #1abc9c;
+$color-2    : #16a085;
+
+html {
+    height: 100%;
+}
+
+body {
+    position: relative;
+    height: 100%;
+    font: 12px Helvetica, Verdana, sans-serif;
+    text-align: center;
+    border: 10px solid $white;
+    background: $color-1;
+    @include box-sizing (border-box);
+}
+
+h1 {
+    color: $white;
+    font-size: 90px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.h2 {
+    font-size: 18px;
+}
+
+.box {
+    display: inline-block;
+    position: relative;
+    width: 250px;
+    height: 120px;
+    margin: 30px;
+    text-align: center;
+    line-height: 120px;
+    background: $white;
+    border: 1px solid $color-2;
+    @include border-radius(5px);
+
+    &.ba-1 {
+        @include box-arrow(top, 10, $white, $color-2);
+    }
+
+    &.ba-2 {
+        @include box-arrow(bottom, 10, $white, $color-2);
+    }
+}

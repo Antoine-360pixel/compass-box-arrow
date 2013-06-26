@@ -1,0 +1,11 @@
+{
+    "name": "Compass-box-arrow",
+    "version": "0.0.1",
+    "description": "Generator Compass-box-arrow",
+    "author": "Naivencreatik",
+    "dependencies": {
+    "modernizr": "~2.6.2",
+    "jquery": "~1.9.1"
+    },
+    "devDependencies": {}
+}

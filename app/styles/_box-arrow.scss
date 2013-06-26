@@ -1,0 +1,62 @@
+/* 
+    Compass-Box-arrow v0.0.1
+    By Naivencreatik  ~ 2013 ~
+    http://naivencreatik.com
+*/
+
+@mixin box-arrow($param, $size, $color, $borderColor) {
+    &:after, 
+    &:before {
+        content: " ";
+        position: absolute;
+        left: 50%;
+        width: 0;
+        height: 0;
+        border: solid transparent;
+        pointer-events: none;
+    }
+
+    &:after {
+        margin-left: -#{$size}px;
+        border-width: #{$size}px;
+        z-index: 4;
+    }
+       
+    &:before {
+        margin-left: -#{$size + 1}px;
+        border-width: #{$size + 1}px;
+        z-index: 1;
+    }
+
+    @if($param == top) {
+        @extend %fadeInUp;
+
+        &:after, 
+        &:before {
+            bottom: 100%;
+        }
+
+        &:after {
+            border-bottom-color: $color;
+        }
+
+        &:before {
+            border-bottom-color: $borderColor;
+        }
+    }@else if($param == bottom) {
+        @extend %fadeInDown;
+
+        &:after, 
+        &:before {
+            top: 100%;
+        }
+
+        &:after {
+            border-top-color: $color;
+        }
+
+        &:before {
+            border-top-color: $borderColor;
+        }
+    }
+}
