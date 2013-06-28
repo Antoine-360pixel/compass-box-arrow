@@ -1,6 +1,7 @@
 @import "compass";
 @import "compass/css3";
 @import "compass/reset";
+
 @import "animate/animations";
 @import "box-arrow";
 
@@ -10,24 +11,7 @@ $black      : #000;
 $color-1    : #efefef;
 $color-2    : #e6e6e6;
 $color-3    : #1abc9c;
-
-//Mixins
-@mixin button ($color) {
-    color: $white;
-    background: $color;
-
-    &:hover {
-        color: $white;
-        background: lighten($color, 10%);
-    }
-    
-    &:active {
-        color: $white;
-        background: lighten($color, 20%);
-        @include box-shadow(inset 0 0 0 1px $white);  
-    }
-}
-
+$color-4    : #999;
 
 html {
     height: 100%;
@@ -56,6 +40,10 @@ h2 {
     font-size: 18px;
 }
 
+.visible {
+    display: inline-block;
+}
+
 .desc,
 .example {
     padding: 30px;
@@ -66,19 +54,25 @@ button,
     display: inline-block;
     min-width: 150px;
     height: 45px;
-    padding: 1px 6px;
     margin: 0 auto;
+    padding: 0 30px;
     font-size: 18px;
     line-height: 45px;
     text-align: center;
+    color: $color-4;
     text-decoration: none;
     border: none;
-    @include button($color-3);
+    background: $white;
+    border: 1px solid $color-2;
+
+    &:hover {
+        color: $white;
+        background: $color-3;
+    }
 }
 
-
-.box {
-    display: inline-block;
+#box {
+    display: block;
     position: relative;
     width: 250px;
     height: 120px;
@@ -89,19 +83,20 @@ button,
     border: 1px solid $color-2;
     @include border-radius(5px);
 
-    &.ba-1 {
+    &.b1 {
         @include box-arrow(top, 10, $white, $color-2);
     }
 
-    &.ba-2 {
+    &.b2 {
         @include box-arrow(right, 10, $white, $color-2);
     }
 
-    &.ba-3 {
+    &.b3 {
         @include box-arrow(bottom, 10, $white, $color-2);
     }
 
-    &.ba-4 {
+    &.b4 {
         @include box-arrow(left, 10, $white, $color-2);
     }
 }
+
