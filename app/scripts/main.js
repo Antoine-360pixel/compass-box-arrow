@@ -1,11 +1,13 @@
-(function(){
+var button  = $('button');
+var p = $('#box p');
 
-    var data = $("button").data(data)
-    var box = $("#box");
-    var button = $("button");
+button.on('click', function(){
+    var data = $(this).attr('data');
+    var dataHtml = $(this).html();
 
-    button.on("click", function(){
-        box.removeClass().addClass(data);
-    });
+    button.removeClass('current');
+    $(this).addClass('current');
+    $('#box').removeClass().addClass(data);
+    p.html(dataHtml);
+});
 
-}());

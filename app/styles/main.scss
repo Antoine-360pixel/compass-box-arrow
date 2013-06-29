@@ -65,9 +65,11 @@ button,
     background: $white;
     border: 1px solid $color-2;
 
-    &:hover {
+    &:hover,
+    &.current {
         color: $white;
         background: $color-3;
+        cursor: pointer;
     }
 }
 
@@ -79,24 +81,25 @@ button,
     margin: 30px;
     text-align: center;
     line-height: 120px;
-    background: $white;
+    color: $white;
+    background: $color-3;
     border: 1px solid $color-2;
     @include border-radius(5px);
 
     &.b1 {
-        @include box-arrow(top, 10, $white, $color-2);
+        @include box-arrow(top, 10, $color-3, $color-2);
     }
 
     &.b2 {
-        @include box-arrow(right, 10, $white, $color-2);
+        @include box-arrow(right, 10, $color-3, $color-2);
     }
 
     &.b3 {
-        @include box-arrow(bottom, 10, $white, $color-2);
+        @include box-arrow(bottom, 10, $color-3, $color-2);
     }
 
     &.b4 {
-        @include box-arrow(left, 10, $white, $color-2);
+        @include box-arrow(left, 10, $color-3, $color-2);
     }
 }
 
