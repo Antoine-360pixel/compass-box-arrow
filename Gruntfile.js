@@ -85,7 +85,7 @@ module.exports = function (grunt) {
         },
         open: {
             server: {
-                path: 'http://192.168.0.49:<%= connect.options.port %>'
+                path: 'http://192.168.0.43:<%= connect.options.port %>'
             }
         },
         clean: {
