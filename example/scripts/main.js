@@ -1,0 +1,1 @@
+var button=$("button"),p=$("#box p");button.on("click",function(){var e=$(this).attr("data"),t=$(this).html();button.removeClass("current"),$(this).addClass("current"),$("#box").removeClass().addClass(e),p.html(t)});
