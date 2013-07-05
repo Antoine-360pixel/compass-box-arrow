@@ -4,7 +4,7 @@
     http://naivencreatik.com
 */
 
-@mixin box-arrow($param, $size, $color, $borderColor) {
+@mixin box-arrow($orientation, $size, $color, $borderColor) {
     &:after, 
     &:before {
         content: " ";
@@ -25,13 +25,21 @@
         z-index: 1;
     }
 
-    @if($param == top) {
+    @if($orientation == top or $orientation == topLeft or $orientation == topRight) {
         @extend %fadeInUp;
 
         &:after, 
         &:before {
             bottom: 100%;
-            left: 50%;
+        
+            @if($orientation == top) {
+                left: 50%;
+            }@else if($orientation == topLeft) {
+                left: #{size * 2}px;
+            }
+            @else if($orientation == topLeft) {
+                right: #{size * 2}px;
+            }
         }
 
         &:after {
@@ -43,13 +51,20 @@
             margin-left: -#{$size + 1}px;
             border-bottom-color: $borderColor;
         }
-    }@else if($param == right) {
+    }@else if($orientation == right or $orientation == rightTop or $orientation == rightBottom) {
         @extend %fadeInRight;
 
         &:after, 
         &:before {
-            top: 50%;
             left: 100%;
+
+            @if($orientation == right) {
+                top: 50%;
+            }@else if($orientation == rightTop) {
+                top: #{size * 2}px;
+            }@else if($orientation == rightBottom) {
+                bottom: #{size * 2}px;
+            }
         }
 
         &:after {
@@ -61,13 +76,20 @@
             margin-top: -#{$size + 1}px;
             border-left-color: $borderColor;
         }
-    }@else if($param == bottom) {
+    }@else if($orientation == bottom or $orientation == bottomLeft or $orientation == bottomRight) {
         @extend %fadeInDown;
 
         &:after, 
         &:before {
             top: 100%;
-            left: 50%;
+
+            @if($orientation == bottom) {
+                left: 50%;
+            }@else if($orientation == bottomLeft) {
+                left: #{size * 2}px;
+            }@else if($orientation == bottomRight) {
+                right: #{size * 2}px;
+            }
         }
 
         &:after {
@@ -79,13 +101,20 @@
             margin-left: -#{$size + 1}px;
             border-top-color: $borderColor;
         }
-    }@else if($param == left) {
+    }@else if($orientation == left or $orientation == leftTop or $orientation == leftBottom) {
         @extend %fadeInLeft;
 
         &:after, 
         &:before {
-            top: 50%;
             right: 100%;
+
+            @if($orientation == left) {
+                top: 50%;
+            }@else if($orientation == leftTop) {
+                top: #{size * 2}px;
+            }@else if($orientation == leftBottom) {
+                bottom: #{size * 2}px;
+            }
         }
 
         &:after {
