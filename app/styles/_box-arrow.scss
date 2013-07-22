@@ -37,7 +37,7 @@
             }@else if($orientation == topLeft) {
                 left: #{size * 2}px;
             }
-            @else if($orientation == topLeft) {
+            @else if($orientation == topRight) {
                 right: #{size * 2}px;
             }
         }
