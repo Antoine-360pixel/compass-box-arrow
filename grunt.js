@@ -8,7 +8,7 @@ module.exports = function(grunt) {
           src: 'sass',
           dest: 'styles',
           linecomments: true,
-          debugsass: true,
+          debugsass: false,
           forcecompile: true,
           images: 'img',
           relativeassets: true

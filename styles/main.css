@@ -1,4 +1,4 @@
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/crousti\/\.rvm\/gems\/ruby-2\.0\.0-p0\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000317}}
+/* line 17, ../../../../.rvm/gems/ruby-2.0.0-p0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,45 +20,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/crousti\/\.rvm\/gems\/ruby-2\.0\.0-p0\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000322}}
+/* line 22, ../../../../.rvm/gems/ruby-2.0.0-p0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/crousti\/\.rvm\/gems\/ruby-2\.0\.0-p0\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000324}}
+/* line 24, ../../../../.rvm/gems/ruby-2.0.0-p0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/crousti\/\.rvm\/gems\/ruby-2\.0\.0-p0\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000326}}
+/* line 26, ../../../../.rvm/gems/ruby-2.0.0-p0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/crousti\/\.rvm\/gems\/ruby-2\.0\.0-p0\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000328}}
+/* line 28, ../../../../.rvm/gems/ruby-2.0.0-p0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/crousti\/\.rvm\/gems\/ruby-2\.0\.0-p0\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000330}}
+/* line 30, ../../../../.rvm/gems/ruby-2.0.0-p0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/crousti\/\.rvm\/gems\/ruby-2\.0\.0-p0\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\00003103}}
+/* line 103, ../../../../.rvm/gems/ruby-2.0.0-p0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/crousti\/\.rvm\/gems\/ruby-2\.0\.0-p0\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000332}}
+/* line 32, ../../../../.rvm/gems/ruby-2.0.0-p0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/crousti\/\.rvm\/gems\/ruby-2\.0\.0-p0\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\00003116}}
+/* line 116, ../../../../.rvm/gems/ruby-2.0.0-p0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
@@ -68,12 +68,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     By Naivencreatik  ~ 2013 ~
     http://naivencreatik.com
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/crousti\/code\/sandbox\/compass-box-arrow\/sass\/main\.scss}line{font-family:\0000315}}
+/* line 15, ../sass/main.scss */
 html {
   height: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/crousti\/code\/sandbox\/compass-box-arrow\/sass\/main\.scss}line{font-family:\0000319}}
+/* line 19, ../sass/main.scss */
 body {
   position: relative;
   height: 100%;
@@ -84,7 +84,7 @@ body {
   box-sizing: border-box;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/crousti\/code\/sandbox\/compass-box-arrow\/sass\/main\.scss}line{font-family:\0000327}}
+/* line 27, ../sass/main.scss */
 h1 {
   color: black;
   font-size: 90px;
@@ -92,28 +92,28 @@ h1 {
   line-height: 94px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/crousti\/code\/sandbox\/compass-box-arrow\/sass\/main\.scss}line{font-family:\0000334}}
+/* line 34, ../sass/main.scss */
 h2 {
   font-size: 48px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/crousti\/code\/sandbox\/compass-box-arrow\/sass\/main\.scss}line{font-family:\0000338}}
+/* line 38, ../sass/main.scss */
 .h3 {
   font-size: 18px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/crousti\/code\/sandbox\/compass-box-arrow\/sass\/main\.scss}line{font-family:\0000342}}
+/* line 42, ../sass/main.scss */
 .visible {
   display: inline-block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/crousti\/code\/sandbox\/compass-box-arrow\/sass\/main\.scss}line{font-family:\0000347}}
+/* line 47, ../sass/main.scss */
 .desc,
 .example {
   padding: 30px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/crousti\/code\/sandbox\/compass-box-arrow\/sass\/main\.scss}line{font-family:\0000352}}
+/* line 52, ../sass/main.scss */
 button,
 .button {
   display: inline-block;
@@ -130,7 +130,7 @@ button,
   background: white;
   border: 1px solid #e6e6e6;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/crousti\/code\/sandbox\/compass-box-arrow\/sass\/main\.scss}line{font-family:\0000368}}
+/* line 68, ../sass/main.scss */
 button:hover, button.current,
 .button:hover,
 .button.current {
@@ -139,7 +139,7 @@ button:hover, button.current,
   cursor: pointer;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/crousti\/code\/sandbox\/compass-box-arrow\/sass\/main\.scss}line{font-family:\0000375}}
+/* line 75, ../sass/main.scss */
 #box {
   display: block;
   position: relative;
@@ -157,7 +157,7 @@ button:hover, button.current,
   -o-border-radius: 5px;
   border-radius: 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/crousti\/code\/sandbox\/compass-box-arrow\/sass\/_box-arrow\.scss}line{font-family:\0000334}}
+/* line 34, ../sass/_box-arrow.scss */
 #box.b1:after, #box.b1:before {
   content: " ";
   position: absolute;
@@ -168,19 +168,19 @@ button:hover, button.current,
   border: solid transparent;
   pointer-events: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/crousti\/code\/sandbox\/compass-box-arrow\/sass\/_box-arrow\.scss}line{font-family:\0000345}}
+/* line 45, ../sass/_box-arrow.scss */
 #box.b1:before {
   margin-left: -12px;
   border-width: 12px;
   border-bottom-color: #e6e6e6;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/crousti\/code\/sandbox\/compass-box-arrow\/sass\/_box-arrow\.scss}line{font-family:\0000351}}
+/* line 51, ../sass/_box-arrow.scss */
 #box.b1:after {
   margin-left: -10px;
   border-width: 10px;
   border-bottom-color: #1abc9c;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/crousti\/code\/sandbox\/compass-box-arrow\/sass\/_box-arrow\.scss}line{font-family:\0000334}}
+/* line 34, ../sass/_box-arrow.scss */
 #box.b2:after, #box.b2:before {
   content: " ";
   position: absolute;
@@ -191,19 +191,19 @@ button:hover, button.current,
   border: solid transparent;
   pointer-events: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/crousti\/code\/sandbox\/compass-box-arrow\/sass\/_box-arrow\.scss}line{font-family:\0000345}}
+/* line 45, ../sass/_box-arrow.scss */
 #box.b2:before {
   margin-top: -12px;
   border-width: 12px;
   border-left-color: #e6e6e6;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/crousti\/code\/sandbox\/compass-box-arrow\/sass\/_box-arrow\.scss}line{font-family:\0000351}}
+/* line 51, ../sass/_box-arrow.scss */
 #box.b2:after {
   margin-top: -10px;
   border-width: 10px;
   border-left-color: #1abc9c;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/crousti\/code\/sandbox\/compass-box-arrow\/sass\/_box-arrow\.scss}line{font-family:\0000334}}
+/* line 34, ../sass/_box-arrow.scss */
 #box.b3:after, #box.b3:before {
   content: " ";
   position: absolute;
@@ -214,19 +214,19 @@ button:hover, button.current,
   border: solid transparent;
   pointer-events: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/crousti\/code\/sandbox\/compass-box-arrow\/sass\/_box-arrow\.scss}line{font-family:\0000345}}
+/* line 45, ../sass/_box-arrow.scss */
 #box.b3:before {
   margin-left: -12px;
   border-width: 12px;
   border-top-color: #e6e6e6;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/crousti\/code\/sandbox\/compass-box-arrow\/sass\/_box-arrow\.scss}line{font-family:\0000351}}
+/* line 51, ../sass/_box-arrow.scss */
 #box.b3:after {
   margin-left: -10px;
   border-width: 10px;
   border-top-color: #1abc9c;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/crousti\/code\/sandbox\/compass-box-arrow\/sass\/_box-arrow\.scss}line{font-family:\0000334}}
+/* line 34, ../sass/_box-arrow.scss */
 #box.b4:after, #box.b4:before {
   content: " ";
   position: absolute;
@@ -237,13 +237,13 @@ button:hover, button.current,
   border: solid transparent;
   pointer-events: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/crousti\/code\/sandbox\/compass-box-arrow\/sass\/_box-arrow\.scss}line{font-family:\0000345}}
+/* line 45, ../sass/_box-arrow.scss */
 #box.b4:before {
   margin-top: -12px;
   border-width: 12px;
   border-right-color: #e6e6e6;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/crousti\/code\/sandbox\/compass-box-arrow\/sass\/_box-arrow\.scss}line{font-family:\0000351}}
+/* line 51, ../sass/_box-arrow.scss */
 #box.b4:after {
   margin-top: -10px;
   border-width: 10px;
