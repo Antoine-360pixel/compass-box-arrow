@@ -4,21 +4,21 @@ A scss mixin (compass) for simply generate box arrow.
 By Naivencreatik
 
 ## Usage
-import the "box-arrow" file and the "animate" folder
+import the "box-arrow" file
 
 ```scss
-@include box-arrow($param, $size, $color, $borderColor);
+@include box-arrow($orientation, $position, $size, $color, $borderColor);
 ```
-// Define short $param
-`top`, `right`, `bottom`, `left`, `topLeft`, `topRight`, `rightTop`, `rightBottom`, `bottomLeft`, `bottomRight`, `leftTop`, `leftBottom` 
+// Define short $params
+$orientation : `top`, `right`, `bottom`, `left`
+$position : `right`, `center`, `left`
 
 ##Example 
 ```scss
-@import "animate/animations";
 @import "box-arrow";
 
 .box{
-    @include box-arrow(top, 10, #fff, #e6e6e6);
+	@include box-arrow(top, center, 10, #fff, #e6e6e6);
 }
 ```
 
