@@ -1,0 +1,57 @@
+/* 
+    Compass-Box-arrow v0.0.1
+    By Naivencreatik  ~ 2013 ~
+    http://naivencreatik.com
+*/
+
+@mixin box-arrow(   $orientation: top,
+                    $position: center,
+                    $size: 10,
+                    $color: white,
+                    $borderColor: black,
+                    $model: false) {
+
+    $opposite: opposite-position($orientation);
+    $position-val: #{$size + 4}px;
+
+    @if ($position == center) {
+        $position-val: 50%;
+    }
+
+    @if ($orientation == top or $orientation == bottom) {
+        @if ($position == center) {
+            $position: left;
+        }
+    }
+
+    @if ($orientation == right or $orientation == left) {
+        @if ($position == center) {
+            $position: top;
+        }
+    }
+
+    &:after, 
+    &:before {
+        content: " ";
+        position: absolute;
+        #{$opposite}: 100%;
+        #{$position}: $position-val;
+        width: 0;
+        height: 0;
+        border: solid transparent;
+        pointer-events: none;
+    }
+
+    &:before {
+        margin-#{$position}: -#{$size + 2}px;
+        border-width: #{$size + 2}px;
+        border-#{$opposite}-color: $borderColor;
+    }
+    
+    &:after {
+        margin-#{$position}: -#{$size}px;
+        border-width: #{$size}px;
+        border-#{$opposite}-color: $color;
+    }
+       
+}
