@@ -1,4 +1,4 @@
-# Compass box-arrow v0.0.1
+# Compass box-arrow v0.0.2
 
 A scss mixin (compass) for simply generate box arrow.
 By Naivencreatik
