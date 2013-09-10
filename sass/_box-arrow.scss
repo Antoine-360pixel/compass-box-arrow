@@ -15,19 +15,16 @@
     $position-val: #{$size + 4}px;
 
     @if ($position == center) {
-        $position-val: 50%;
-    }
-
-    @if ($orientation == top or $orientation == bottom) {
-        @if ($position == center) {
+        
+        @if ($orientation == top or $orientation == bottom) {
             $position: left;
         }
-    }
 
-    @if ($orientation == right or $orientation == left) {
-        @if ($position == center) {
+        @if ($orientation == right or $orientation == left) {
             $position: top;
         }
+        
+        $position-val: 50%;
     }
 
     &:after, 
