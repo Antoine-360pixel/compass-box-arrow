@@ -4,11 +4,11 @@
     http://naivencreatik.com
 */
 
-@mixin box-arrow(   $orientation: top,
-                    $position: center,
-                    $size: 10,
-                    $color: white,
-                    $borderColor: black,
+@mixin box-arrow(   $orientation,
+                    $position,
+                    $size,
+                    $color,
+                    $borderColor,
                     $model: false) {
 
     $opposite: opposite-position($orientation);
